@@ -1,0 +1,26 @@
+
+.d11{
+    background-color: yellow;
+
+}
+.d12{
+    background-color: green;
+}
+.d21{
+    background-color: red;
+   
+}
+.d22{
+    background-color: blue;
+}
+.d23{
+    background-color: yellow;
+    }
+.dim{
+    background-color: yellow;
+    }
+.row div{
+    padding: 20px;
+    border: 1px solid white;
+    text-align: center;
+}
