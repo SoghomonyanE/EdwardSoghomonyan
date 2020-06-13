@@ -1,26 +1,154 @@
 
-.d11{
-    background-color: yellow;
-
+body{
+    height: 100%;
+    width: 100%;
 }
-.d12{
+.green{
+    color: white;
     background-color: green;
 }
-.d21{
-    background-color: red;
-   
+.d1 p{
+    margin-left: 30px;
 }
-.d22{
-    background-color: blue;
+.d1{
+    color: white;
+    display: flex;
+    width: 100%;
+    /* height: 50px; */
+    justify-content: space-between;
 }
-.d23{
-    background-color: yellow;
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+}
+.d11{
+    margin:0 30px 30px 30px;
+    display: flex;
+}
+.d1icons{
+    margin:20px 30px 30px 30px;
+}
+.d2{
+    width: 100%;
+    background-image: url(images/forest.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
-.dim{
-    background-color: yellow;
+    .d21{
+        margin-left: 150px;
     }
-.row div{
-    padding: 20px;
-    border: 1px solid white;
+.d3{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.d4{
+    /* height: 300px; */
+    display: flex;
+    justify-content: space-around;
+}
+.d5{
+    width: 100%;
+    /* height: 360px; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.d51{
+    width: 30%;
+    height: 40%;
+    margin-top: 30px;
+    color: white;
     text-align: center;
 }
+.d6{
+    text-align: center;
+    width: 100$;
+    height: 200px;
+}
+.d7{
+    text-align: center;
+    width: 100$;
+    height: 150px;
+}
+.d8{
+    text-align: center;
+    width: 100$;
+    height: 100px;
+    padding:30px;
+}
+img{
+    height: 90%;
+}
+.mright{
+    margin-right: 10px;
+}
+.iwhite{
+    color: white;
+}
+.grey{
+    color: grey;
+}
+.btn1{
+    background-color: white;
+    border: 1px solid black;
+    width: 15%;
+    height: 30px;
+}
+.inorm{
+    margin-right: 10px;
+    color: black;
+}
+a { 
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 30px;
+   } 
+ul{
+    list-style-type:none;
+}
+.im20{
+    margin-right: 20px;
+    color: black;
+}
+.btn_watch{
+    background-color: white;
+    border: 2px solid black;
+    width: 150px;
+    height: 30px;
+}
+.btn_get{
+    border: none;
+    color: grey;
+    outline: none;
+    background-color: white;
+}
+.btn_6{
+    border: 1px solid grey;
+    outline: none;
+    color: grey;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+@media only screen and (max-width: 600px) {
+    .d1 {
+      flex-direction: column;
+    }
+    .d4 {
+        flex-direction: column;
+      }
+      .d51{
+          width: 80%;
+      }
+      .d1icons{
+          text-align: center;
+      }
+      .d42{
+        text-align: center;
+      }
+     }
